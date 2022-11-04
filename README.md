@@ -111,9 +111,10 @@ You Created. --> Save.
  * the ubuntu user is specific to Ubuntu. If not using Ubuntu please use the appropriate user based on your OS.
  * read about installing addons at: https://kops.sigs.k8s.io/operations/addons.
 
+#kops export kubecfg --admin - to fix this error - Error: Validation failed: unexpected error during validation: error listing nodes: Unauthorized
 
 # 11) connect to the master node
-    sh -i ~/.ssh/id_rsa ubuntu@ipAddress
+    sh -i ~/.ssh/id_rsa ubuntu@18.222.165.255
     ssh -i ~/.ssh/id_rsa ubuntu@18.222.139.125
     ssh -i ~/.ssh/id_rsa ubuntu@172.20.58.124
 # 11) To list nodes
